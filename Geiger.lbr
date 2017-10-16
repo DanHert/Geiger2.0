@@ -121,7 +121,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>Generated from &lt;b&gt;untitled.sch&lt;/b&gt;&lt;p&gt;
+<description>Generated from &lt;b&gt;GeigerA.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
 <package name="CCFL">
@@ -197,8 +197,8 @@ by exp-lbrs.ulp</description>
 <wire x1="-0.635" y1="-3.175" x2="-2.54" y2="-1.27" width="0.127" layer="21" curve="-90"/>
 <wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="1.27" x2="-0.635" y2="3.175" width="0.127" layer="21" curve="-90"/>
-<wire x1="92.075" y1="6.35" x2="92.075" y2="2.54" width="1.016" layer="17"/>
-<wire x1="90.17" y1="4.445" x2="93.98" y2="4.445" width="1.016" layer="17"/>
+<wire x1="10.795" y1="-3.81" x2="10.795" y2="-7.62" width="1.016" layer="17"/>
+<wire x1="8.89" y1="-5.715" x2="12.7" y2="-5.715" width="1.016" layer="17"/>
 <wire x1="50.8" y1="5.715" x2="50.8" y2="-5.715" width="0.127" layer="21"/>
 <wire x1="52.07" y1="5.715" x2="52.07" y2="-5.715" width="0.127" layer="21"/>
 <wire x1="44.45" y1="5.715" x2="44.45" y2="-5.715" width="0.127" layer="21"/>
@@ -339,14 +339,14 @@ by exp-lbrs.ulp</description>
 <text x="-2.8575" y="-2.159" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="4.064" y="-2.159" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
-<package name="AL60P">
+<package name="AL11P">
 <description>&lt;b&gt;SPEAKER&lt;/b&gt;</description>
-<circle x="0" y="0" radius="6.096" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-3.2512" y="0" drill="1.016" diameter="2.54" shape="octagon"/>
-<pad name="2" x="3.2512" y="0" drill="1.016" diameter="2.54" shape="octagon"/>
-<text x="-2.54" y="6.35" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.8862" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<circle x="0" y="0" radius="4.572" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.016" width="0.1524" layer="21"/>
+<pad name="+" x="2.032" y="0" drill="1.016" diameter="1.905" shape="octagon"/>
+<pad name="-" x="-2.032" y="0" drill="1.016" diameter="1.905" shape="octagon"/>
+<text x="-3.175" y="5.3975" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-6.35" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="SOD123">
 <description>&lt;b&gt;Diode&lt;/b&gt;</description>
@@ -5249,16 +5249,16 @@ grid 2.54 mm, vertical</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AL60P" prefix="SP">
+<deviceset name="AL11P" prefix="SP">
 <description>&lt;b&gt;SPEAKER&lt;/b&gt;&lt;p&gt; Source: Buerklin</description>
 <gates>
 <gate name="G$1" symbol="SP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="AL60P">
+<device name="" package="AL11P">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="-"/>
+<connect gate="G$1" pin="2" pad="+"/>
 </connects>
 <technologies>
 <technology name="">
