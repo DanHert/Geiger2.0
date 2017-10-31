@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8234,8 +8234,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="-0.635" y1="-3.175" x2="-2.54" y2="-1.27" width="0.127" layer="21" curve="-90"/>
 <wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="1.27" x2="-0.635" y2="3.175" width="0.127" layer="21" curve="-90"/>
-<wire x1="19.685" y1="-3.175" x2="19.685" y2="-5.715" width="0.508" layer="1"/>
-<wire x1="18.415" y1="-4.445" x2="20.955" y2="-4.445" width="0.508" layer="1"/>
+<wire x1="15.875" y1="-3.175" x2="15.875" y2="-5.715" width="0.508" layer="1"/>
+<wire x1="14.605" y1="-4.445" x2="17.145" y2="-4.445" width="0.508" layer="1"/>
 <wire x1="50.8" y1="5.715" x2="50.8" y2="-5.715" width="0.127" layer="21"/>
 <wire x1="52.07" y1="5.715" x2="52.07" y2="-5.715" width="0.127" layer="21"/>
 <wire x1="44.45" y1="5.715" x2="44.45" y2="-5.715" width="0.127" layer="21"/>
